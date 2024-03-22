@@ -1,0 +1,133 @@
+/*
+Author: Hunter Dettmer
+Date: 3/22/2023
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, table {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #182061;
+}
+
+#container {
+	margin: 0 auto;
+}
+
+header {
+	border-bottom: 3px solid;
+}
+
+header a {
+	text-decoration: none;
+	color: #B7A0BD;
+	text-align: center;
+	padding: 5%;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	text-align: center;
+	font-size: 2em;
+}
+
+nav {
+	text-align: center;
+	background-color: #A06034;
+}
+
+nav li {
+	padding: 1%;
+	font-size: 1em;
+}
+
+nav li:last-child {
+	border-bottom: 3px solid #0D0D0D;
+}
+
+nav li a {
+	text-decoration: none;
+	color: #B7A0BD;
+}
+
+nav li a:hover {
+	border: 2px solid #000;
+	border-width: 2.5%;
+	background-color: #B7A0BD;
+	color: #A06034;
+}
+
+#hero-index {
+	width: 40%;
+	padding-left: 27%;
+}
+
+#hero-death {
+	width: 30%;
+	padding-left: 35%;
+}
+
+#hero-titan {
+	width: 40%;
+	padding-left: 31%;
+}
+
+#hero-target {
+	width: 35%;
+	padding-left: 33%;
+}
+
+#hero-newsletter {
+	width: 36%;
+	padding-left: 32%;
+}
+
+main {
+	padding: 2.5%;
+	background-color: #6C2E43;
+	text-align: center;
+}
+
+main p {
+	font-size: 1.25em;
+	padding: 0% 25%;
+	text-align: left;
+	color: #B7A0BD;
+}
+
+main h3 {
+	font-size: 1.75em;
+}
+
+table {
+	padding-left: 45%;
+}
+
+.btn {
+	border-color: #6C2E43;
+	color: #B7A0BD;
+}
+
+footer {
+	color: #AB7C50;
+	text-align: left;
+	padding-left: 2.5%;
+	padding-top: 1%
+}
+
+footer a {
+	text-decoration: none;
+	color: #AB7C50;
+}
+
+footer a:hover {
+	color: #0000FF;
+}

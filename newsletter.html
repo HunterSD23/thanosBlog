@@ -1,0 +1,94 @@
+<!doctype html>
+<!--
+Student Name: Hunter Dettmer
+File Name: newsletter.html
+Date Created: 03/22/2024
+-->
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Thanos! - Newsletter</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<div id="container">
+		<!-- Header Section -->
+		<header>
+			<a href="index.html">
+				<h1>Thanos's Website!</h1>
+			</a>
+		</header>
+		
+		<!-- Nav Section -->
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="deathsSake.html">Death's Sake</a></li>
+				<li><a href="titan.html">Titan</a></li>
+				<li><a href="bigTarget.html">Big Target</a></li>
+				<li><a href="newsletter.html">Newsletter</a></li>
+			</ul> 
+		</nav>
+		
+		<!-- Hero Image -->
+		<img src="images/newsletter.jpg" alt="thanos wrapped in a bunch of magic ropes" id="hero-newsletter">
+		
+		<!-- Main Content -->
+		<main>
+			<h3>To find out more, please sign up for our newsletter:</h3>
+
+			<form method="get" action="mailto:cte-hunter.dettmer@sllboces.org">
+			
+				<table>
+					
+					<tr>
+						<td>
+							<label for="fname">First Name</label>
+						</td>
+					</tr>
+				
+					<tr>
+						<td>
+							<input type="text" name="fname" id="fName" required>
+						</td>
+					</tr>
+				
+					<tr>
+						<td>
+							<label for="lName">Last Name</label>
+						</td>
+					</tr>
+					
+					<tr>
+						<td>
+							<input type="text" name="lname" id="lName" required>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<label for="fname">Email</label>
+						</td>
+					</tr>
+				
+					<tr>
+						<td>
+							<input type="email" name="email" id="name" required>
+						</td>
+					</tr>
+				</table>
+		
+				<input type="submit" id="submit" value ="Submit" class="btn">
+				<input type="reset" id="reset" value ="Reset" class="btn">
+		
+			</form>
+		</main>
+		
+		<!-- Footer Section -->
+		<footer>
+			<p>&copy; Copyright 2024. All Rights Reserved.</p>
+			<p>Last Updated: March 22nd, 2024</p>
+		</footer>
+	</div>
+</body>
+</html>
